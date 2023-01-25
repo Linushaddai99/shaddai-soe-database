@@ -42,11 +42,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Clinic Database] <a name="about-project"></a>
+# 📖 Clinic Database <a name="about-project"></a>
 
->This is a simple hospital databse project.\
+![clinic_diagram](https://user-images.githubusercontent.com/54178270/214570845-50b392f2-8878-4214-a9e1-ef42923b295e.png)
 
-**[Clinic Database]** is a simple database that was created from a database diagram
+**Clinic Database** is a simple database that was created from the above database diagram.
 
 ## 🛠 Built With <a name="built-with"></a>
 
