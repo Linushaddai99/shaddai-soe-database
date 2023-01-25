@@ -28,13 +28,14 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Vet\_clinic\] ](#-shaddai-soe-database-)
+- [📖 Clinic Database ](#-clinic-database-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Navigate to the folder](#navigate-to-the-folder)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -139,6 +140,14 @@ LinkedIn: @linushaddai99
 👤 Soe Sandar Win
 GitHub: @soesandarwin2201
 LinkedIn: LinkedIn
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Insert the patient data into table**
+- [ ] **Generate invoices for each treatments**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
