@@ -20,8 +20,29 @@ CREATE TABLE treatments (
 );
 
 CREATE TABLE invoices (
+    id SERIAL PRIMARY KEY NOT NULL,
+    total-amount DECIMAL,
+    generated_at TIMESTAMP,
+    payed_at TIMESTAMP,
+    medical_histories_id INT NOT NULL,
+    constraint medical_histories_id foreign key(medical_histories_id) references medical_histories(id), 
 )
 
 CREATE TABLE invoice_items (
+  id SERIAL PRIMARY KEY,
+  unit_price DECIMAL NOT NULL,
+  quantity INT NOT NULL,
+  total_price DECIMAL NOT NULL,
+  invoice_id INT,
+  treatments_id INT,
+  constraint invoice_id foreign key(invoice_id) references invoices(id),
+  constraint treatments_id foreign key(treatments_id) references treatments(id),
+)
 
+CREATE TABLE medical_histories_treatment(
+    medical_histories_id INT PRIMARY KEY NOT NULL,
+    treatments_id INT PRIMARY KEY NOT NULL,
+    constraint medical_histories_id foreign key(medical_histories_id) references 
+     medical_histories(id), 
+    constraint treatments_id foreign key(treatments_id) references treatments(id),
 )
