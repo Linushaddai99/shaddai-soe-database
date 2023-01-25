@@ -1,4 +1,4 @@
-CREATE DATABASE hospital;
+CREATE DATABASE clinic;
 
 CREATE TABLE patients (
     id SERIAL NOT NULL PRIMARY KEY,
@@ -43,6 +43,6 @@ CREATE TABLE medical_histories_treatment(
     medical_histories_id INT PRIMARY KEY NOT NULL,
     treatments_id INT PRIMARY KEY NOT NULL,
     constraint medical_histories_id foreign key(medical_histories_id) references 
-     medical_histories(id), 
+        medical_histories(id), 
     constraint treatments_id foreign key(treatments_id) references treatments(id),
 )
