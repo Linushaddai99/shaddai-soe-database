@@ -129,10 +129,16 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-👤 Soe Sandar Win
 
-- GitHub: [@linushaddai99](https://github.com/linushaddai99)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
+👤 Linus Shaddai
+GitHub: @linushaddai99
+Twitter: @linushaddai99
+LinkedIn: @linushaddai99
+
+
+👤 Soe Sandar Win
+GitHub: @soesandarwin2201
+LinkedIn: LinkedIn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
